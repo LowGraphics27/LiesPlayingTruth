@@ -1,0 +1,128 @@
+﻿FormatVersion: 7
+Name: "light_Chorus1"
+Script: "Particles"
+Multithreaded: No
+Config:
+  StartTime:
+    Type: "System.Int32"
+    Value: "59700"
+    DisplayName: "Start Time"
+    BeginsGroup: "Timing"
+  EndTime:
+    Type: "System.Int32"
+    Value: "88862"
+    DisplayName: "End Time"
+  Path:
+    Type: "System.String"
+    Value: "sb/l.png"
+    BeginsGroup: "Sprite"
+  Origin:
+    Type: "System.Int32"
+    Value: "4"
+    AllowedValues:
+      TopLeft: "0"
+      TopCentre: "1"
+      TopRight: "2"
+      CentreLeft: "3"
+      Centre: "4"
+      CentreRight: "5"
+      BottomLeft: "6"
+      BottomCentre: "7"
+      BottomRight: "8"
+  Scale:
+    Type: "OpenTK.Vector2"
+    Value: "0.4,0.8"
+  ScaleRandom:
+    Type: "System.Single"
+    Value: "0.2"
+    DisplayName: "Scale Random"
+  Rotation:
+    Type: "System.Single"
+    Value: "0"
+  Color:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.37500015,0.2810251,0.039375037,0.06"
+  ColorVariance:
+    Type: "System.Single"
+    Value: "0.6"
+    DisplayName: "Color Variance"
+  Additive:
+    Type: "System.Boolean"
+    Value: "True"
+  ParticleCount:
+    Type: "System.Int32"
+    Value: "12"
+    DisplayName: "Particle Count"
+    BeginsGroup: "Spawn"
+  Lifetime:
+    Type: "System.Single"
+    Value: "4000"
+  SpawnOrigin:
+    Type: "OpenTK.Vector2"
+    Value: "320,240"
+    DisplayName: "Spawn Origin"
+  SpawnSpread:
+    Type: "System.Single"
+    Value: "360"
+    DisplayName: "Spawn Spread"
+  Angle:
+    Type: "System.Single"
+    Value: "0"
+    BeginsGroup: "Motion"
+  AngleSpread:
+    Type: "System.Single"
+    Value: "360"
+    DisplayName: "Angle Spread"
+  Speed:
+    Type: "System.Single"
+    Value: "50"
+  Easing:
+    Type: "System.Int32"
+    Value: "0"
+    AllowedValues:
+      None: "0"
+      Out: "1"
+      In: "2"
+      InQuad: "3"
+      OutQuad: "4"
+      InOutQuad: "5"
+      InCubic: "6"
+      OutCubic: "7"
+      InOutCubic: "8"
+      InQuart: "9"
+      OutQuart: "10"
+      InOutQuart: "11"
+      InQuint: "12"
+      OutQuint: "13"
+      InOutQuint: "14"
+      InSine: "15"
+      OutSine: "16"
+      InOutSine: "17"
+      InExpo: "18"
+      OutExpo: "19"
+      InOutExpo: "20"
+      InCirc: "21"
+      OutCirc: "22"
+      InOutCirc: "23"
+      InElastic: "24"
+      OutElastic: "25"
+      OutElasticHalf: "26"
+      OutElasticQuarter: "27"
+      InOutElastic: "28"
+      InBack: "29"
+      OutBack: "30"
+      InOutBack: "31"
+      InBounce: "32"
+      OutBounce: "33"
+      InOutBounce: "34"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "5"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  21e5cc5bf9814551a5b75d291c89aba2:
+    Name: ""
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

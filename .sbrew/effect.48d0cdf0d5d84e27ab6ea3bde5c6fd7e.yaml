@@ -1,0 +1,70 @@
+﻿FormatVersion: 7
+Name: "VerseScript 1"
+Script: "VerseScript"
+Multithreaded: No
+Config:
+  DarkGrey:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.16,0.16,0.16,1"
+    DisplayName: "Dark Grey"
+  DarkRed:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.84,0.26880002,0.3897598,1"
+    DisplayName: "Dark Red"
+  seed:
+    Type: "System.Int32"
+    Value: "84"
+  seed2:
+    Type: "System.Int32"
+    Value: "14"
+    DisplayName: "seed 2"
+  seed3:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "seed 3"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "3"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  72bff9a525264931b474ea76432c755d:
+    Name: ""
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  d305f57988d544c199b60ef2a4f46139:
+    Name: "Background"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  58090c0f036f496fb8b3841fd7f1b984:
+    Name: "Main"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  2935058d554b45cd81e300e02020d8f3:
+    Name: "Foreground"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  ac8852b5f9584bb8a818dfb987caa81b:
+    Name: "Title"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  b34c08d943234ffe9dbc72b322f5159b:
+    Name: "Overlay"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  43b9a8439fb5438c9b3f94a360320b47:
+    Name: "Bar"
+    OsbLayer: Foreground
+    DiffSpecific: No
+    Visible: Yes
+  174e13446571455bb4560a33e83e7bf2:
+    Name: "OVER"
+    OsbLayer: Foreground
+    DiffSpecific: No
+    Visible: Yes
